@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# ========================
-# FTP Backup Szkript
-# ========================
+# =========================
+# Berus FTP Backup Szkript
+# =========================
 
 # --- Konfiguráció ---
 FTP_HOST=" "          # A távoli FTP szerver címe
