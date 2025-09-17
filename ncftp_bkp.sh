@@ -5,15 +5,15 @@
 # ========================
 
 # --- Konfiguráció ---
-FTP_HOST="192.168.0.8"    # A távoli FTP szerver címe
-FTP_USER="berus"          # FTP felhasználónév
-FTP_PASS="usergb"         # FTP jelszó
-FTP_DIR="/berus/BKP"      # A távoli könyvtár, ahova mentünk (léteznie kell!)
+FTP_HOST=" "          # A távoli FTP szerver címe
+FTP_USER=" "          # FTP felhasználónév
+FTP_PASS=" "          # FTP jelszó
+FTP_DIR=" "           # A távoli könyvtár, ahova mentünk (léteznie kell!)
 
-LOCAL_DIR="/home/berus/Adatok/Pontfájlok"  # A helyi könyvtár, amit menteni szeretnénk
+LOCAL_DIR=" "         # A helyi könyvtár, amit menteni szeretnénk
 BACKUP_NAME="dots_$(date +%Y%m%d_%H%M%S).tar.gz"  # A mentés fájlneve (időbélyeggel)
 
-LOG_FILE="/home/berus/.local/log/ftp_backup.log"  # Naplófájl
+LOG_FILE="/var/log/ftp_backup.log"  # Naplófájl
 
 # --- Függvények ---
 log() {
