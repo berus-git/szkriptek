@@ -1,6 +1,6 @@
 function backup_ncftp --description 'FTP biztonsági mentés készítése és feltöltése'
     # ========================
-    # FTP Backup Function (fish)
+    # Berus FTP Backup Function (fish)
     # ========================
 
     # --- Konfiguráció ---
