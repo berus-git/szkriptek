@@ -4,15 +4,15 @@ function backup_ncftp --description 'FTP biztonsági mentés készítése és fe
     # ========================
 
     # --- Konfiguráció ---
-    set FTP_HOST "192.168.0.8"      # A távoli FTP szerver címe
-    set FTP_USER "berus"            # FTP felhasználónév
-    set FTP_PASS "usergb"           # FTP jelszó
-    set FTP_DIR "/berus/BKP"        # A távoli könyvtár, ahova mentünk
+    set FTP_HOST " "      # A távoli FTP szerver címe
+    set FTP_USER " "      # FTP felhasználónév
+    set FTP_PASS " "      # FTP jelszó
+    set FTP_DIR " "       # A távoli könyvtár, ahova mentünk
 
-    set LOCAL_DIR "/home/berus/Adatok/dotfiles"  # A helyi könyvtár, amit menteni szeretnénk
+    set LOCAL_DIR " "  # A helyi könyvtár, amit menteni szeretnénk
     set BACKUP_NAME "dots_(date +%Y%m%d_%H%M%S).tar.gz"  # A mentés fájlneve időbélyeggel
 
-    set LOG_FILE "/home/berus/.local/log/ftp_backup.log"  # Naplófájl
+    set LOG_FILE " "  # Naplófájl
 
     # --- Segédfüggvény ---
     function log
