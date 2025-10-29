@@ -1,3 +1,4 @@
-- ncftp_bkp.sh - egyszerű FTP szerverre adott könyvtárat mentő szkript, NcFTP-re alapozva.
+- backup_ncftp.fish - egyszerű FTP szerverre adott könyvtárat mentő szkript, NcFTP-re alapozva, Fish shell function verzió.
+- ncftp_bkp.sh - egyszerű FTP szerverre adott könyvtárat mentő szkript, NcFTP-re alapozva, Bash shell szkript verzió.
 - scrot.sh - egyszerű képernyőkép készítő szkript, scrot-ra alapozva.
 - sysinfo.fish - egyszerű rendszerinformációkat megjelenítő szkript Fish parancsértelmezőhöz ( .config/fish/functions/sysinfo.fish ).
